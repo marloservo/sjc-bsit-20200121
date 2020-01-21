@@ -1,0 +1,23 @@
+div {
+  border: 1px solid blue;
+  height: 20px;
+  width: 150px;
+}
+
+select {
+    height: 100%;
+    width: 100%;
+}
+
+#make-select {
+    border-radius: 5px;
+}
+
+#make-select:active {
+    background-color: gray;
+    color: white;
+}
+
+#make-select:before {
+    content: "MAKE SELECT";
+}
